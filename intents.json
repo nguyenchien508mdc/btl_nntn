@@ -1,0 +1,108 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+   "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+   "context_set": ""
+  },
+{"tag": "goodbye",
+ "patterns": ["Bye", "See you later", "Goodbye"],
+ "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
+ "context_set": ""
+},
+{"tag": "thanks",
+ "patterns": ["Thanks", "Thank you", "That's helpful"],
+ "responses": ["Happy to help!", "Any time!", "My pleasure"],
+ "context_set": ""
+},
+{
+  "tag":"admissions",
+  "patterns":["University admission method in 2023","University admission for mining and geology","College entrance"],
+  "responses":["The University of Mining - Geology enrolls students according to 5 methods: Admission based on the results of the 2023 high school graduation exam; review admissions transcripts; Directly admit good students according to provincial, national and international high school results; Consider recruiting candidates with international certificates combined with high school transcripts","The University of Mining and Geology recruits students through 5 methods:\n Admission is based on the results of the high school graduation exam;\n review admission transcripts; \n Directly recruit good students based on provincial, national and international high school results; \nConsider recruiting candidates with international certificates combined with high school transcripts"],
+  "context_set": ""
+},
+{
+  "tag":"admission_time",
+  "patterns":["How long does it take to register for admission to the School?","Admission time?","school admission period?"],
+  "responses":["From 24/8/2023 to before 5:00 p.m 08/09/2023","August 24 to before 5:00 p.m. August 9"],
+  "context_set":""
+},
+{
+  "tag":"university_code",
+  "patterns":["Symbol - School code","What is your university code?","Please tell me what your school code is?"],
+  "responses":["MDA","is MDA","My school code is MDA"],
+  "context_set":""
+},
+{
+  "tag":"admission_profile",
+  "patterns":["What does the admission application include?","Please ask, what does the admission application include?","What does the application need to do?"],
+  "responses":["Enrollment registration form according to the form.\nAttached documents submitted by candidates include:\n+ Notarized copy of high school transcript.\n+ Copies of priority documents (if any)","Attached documents include:\n+ Notarized copy of high school transcript.\n+ Copies of priority documents (if any)"],
+  "context_set":""
+},
+{
+  "tag":"ubmit_admission",
+  "patterns":["How to submit registration application?","Where to submit application?","Please tell me, where can I submit my application?"],
+  "responses":["Submit application Register for admission online here: https://dkxt.humg.edu.vn.","Please submit your online admission application here: https://dkxt.humg.edu.vn.","You can submit at the following link: https://dkxt.humg.edu.vn."],
+  "context_set":""
+},
+{
+  "tag":"Specialized_training",
+  "patterns":["What majors is the school enrolling in 2023?","How many majors does your school train?","What majors does your school include?"],
+  "responses":["Including 42 occupations. You can see details at the link: https://ts.humg.edu.vn/tuyen-sinh/Pages/Thong-tin-tuyen-sinh.aspx?ItemID=7013"],
+  "context_set":""
+},
+{
+  "tag":"admission_score",
+  "patterns":["Admission score this year?","Admissions score in 2022?","Please tell me this year's admission score?"],
+  "responses":["From 15 to 23,75","Here is your score: From 15 to 23.75"],
+  "context_set":""
+},
+{
+  "tag":"university_training",
+  "patterns":["How long is the training period at the school?","Training time?","How long does it take to graduate?"],
+  "responses":["from 4 to 5 years","about 4 - 5 years"],
+  "context_set":""
+},
+{
+  "tag":"tuition",
+  "patterns":["Tuition fees at the University of Mining and Geology?","Tuition paid by credit?","Please tell me the tuition fee per credit?"],
+  "responses":["Technology: 389,000 VND/credit\n Economy: 352,000 VND/credit","Here you go:\nTechnology: 389,000 VND/credit\n Economy: 352,000 VND/credit"],
+  "context_set":""
+},
+{
+  "tag":"university_club",
+  "patterns":["Does the school have clubs for students?","Can you tell me what clubs the school has?","Clubs at school?", " Club?"],
+  "responses":["There are examples like Youth Team, XKIT,...","Yes, for example Team Tuoi Tre, XKIT,...","The school has clubs such as Youth Team, XKIT,...", "For example, there are Youth teams, XKIT.."],
+  "context_set":""
+},
+{
+  "tag":"IT_industry",
+  "patterns":["Some basic information about the IT industry?","information technology industry?","Can you tell me about the information technology industry?"],
+  "responses":["\"In addition to the core industry and specialized knowledge of the IT industry in general, the high-quality IT industry is equipped with new and regularly updated knowledge such as: Data Science; Artificial Intelligence; Cloud computing; Internet of things...The IT department of the University of Mining and Geology focuses on 6 popular specialized directions in the field of information technology and applied information technology, which are the strengths of the University, including:\n- Software technology\n- Geospatial Information Technology\n- Information system\n- Computer science\n- Internet\n- Economic informatics\"","My school's IT is like this:\n \"In addition to the core industry and specialized knowledge of the IT industry in general, the high-quality IT industry is also equipped with new, regularly updated knowledge such as: Data Science; Artificial Intelligence; Cloud Computing. Cloud; Internet of Things...The Faculty of Information Technology at the University of Mining and Geology focuses on 6 popular majors in the field of information technology and applied information technology, which are the strengths of the University, including:\n- Software technology\n- Geospatial information technology\n - Information systems\n- Computer science\n- Internet\n- Economic informatics\""],
+  "context_set":""
+},
+{
+  "tag":"information",
+  "patterns":["If I want to get information about the school, where can I go??","Where to find school information ?", " Where can I find out school information?"],
+  "responses":["https://humg.edu.vn/Pages/home.aspx"],
+  "context_set":""
+},
+{
+  "tag":" infrastructure",
+  "patterns":["How many training facilities does the school have?","How many locations does the school have?", "How many campuses does the school have?"],
+  "responses":["Khu A: Includes 61 lecture halls and classrooms with an area of 10,666 square meters;Khu B: Includes 51 lecture halls and classrooms with an area of 9,050 square meters"],
+  "context_set":""
+},
+{
+  "tag":"dormitory",
+  "patterns":["Where are the shool dormitories?", "Where to find school dormitories ?", "Where to find the school's dormitory?"],
+  "responses":["Right behind the school","Behind the school campus","Behind school grounds"],
+  "context_set":""
+},
+{
+  "tag":"Supporting policies",
+  "patterns":["What policies does the school have to support students?", "Supporting policie ?", "Does the school have a support policy?"],
+  "responses":["Tuition exemptions, incentive scholarships, etc."," There are tuition exemptions and scholarships","There are tuition waivers and scholarships"],
+  "context_set":""
+}
+]
+}
